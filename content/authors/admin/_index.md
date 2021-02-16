@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Lucas S.B. Jordão
 
 # Is this the primary user of the site?
 superuser: true
