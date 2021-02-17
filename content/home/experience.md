@@ -29,6 +29,14 @@ experience:
     date_start: '2020-03-01'
     date_end:
     description: 'Assessment of plant species from Brazil.'
+  
+  - title: 'Professor of environmental law (with emphasis on flora protection) and forensic botany'
+    company: 'Bioforense'
+    company_url: 'https://www.bioforense.com.br/'
+    location: 'Rio de Janeiro/RJ, Brazil'
+    date_start: '2019-11-01'
+    date_end:
+    description: 'Preparatory course for public contest of forensics expert of the Civil Police.'
 
   - title: 'Doctoral Internship'
     company: Embrapa Recursos Genéticos e Biotecnologia (CENARGEN)
