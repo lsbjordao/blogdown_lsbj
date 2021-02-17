@@ -36,14 +36,13 @@ experience:
     location: 'Brasília/DF, Brazil'
     date_start: '2018-03-01'
     date_end: '2019-03-01'
-    description: |2-
+    description: >-
         Responsibilities include:
         
         * DNA extraction
         * PCR amplification
         * Eletrophoresis
         * Sanger sequencing
-        '
         
   - title: 'Internship and visiting researcher'
     company: 'William & Lynda Steere Herbarium at New York Botanical Garden'
