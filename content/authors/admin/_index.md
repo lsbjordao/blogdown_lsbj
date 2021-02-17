@@ -76,9 +76,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
- - icon: cv
-   icon_pack: ai
-   link: media/resume.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -89,4 +89,4 @@ highlight_name: false
 
 Lucas Jordão has experience and interest in teaching and research. He worked as a teacher of Science and Biology in elementary and high school for four years and four months. In addition, he worked as facilitator of environmental education for ten months. Regarding research, he is a specialist in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In his master research, he developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*. Currently, he is an analyst at CNCFLora/JBRJ and teaches environmental law and forensic botany at Bioforense course.
 
-Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{<i class="fas fa-tree" style="color:green"></i> <i class="fas fa-running" style="color:blue"></i> <i class="fas fa-swimmer" style="color:blue"></i> <i class="fas fa-bicycle" style="color:blue"></i> <i class="fas fa-car" style="color:blue"></i> <i class="fas fa-cannabis" style="color:green"></i> <i class="fas fa-camera" style="color:blue"></i> <i class="fas fa-map-marked-alt" style="color:blue"></i> <i class="fas fa-globe-americas" style="color:blue"></i> <i class="fas fa-seedling" style="color:green"></i> <i class="fas fa-microscope" style="color:blue"></i> <i class="fas fa-flask" style="color:blue"></i> <i class="fas fa-dna" style="color:blue"></i> <i class="fas fa-atom" style="color:blue"></i> <i class="fas fa-book" style="color:blue"></i> <i class="fab fa-pagelines" style="color:green"></i>}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
