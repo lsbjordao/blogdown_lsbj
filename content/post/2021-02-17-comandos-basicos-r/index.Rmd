@@ -3,6 +3,9 @@ title: comandos basicos r
 author: Lucas S.B. Jordão
 date: '2021-02-17'
 slug: []
+output: 
+    blogdown::html_page:
+      toc: true
 categories: []
 tags: []
 subtitle: ''
