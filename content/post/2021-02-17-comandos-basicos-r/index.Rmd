@@ -20,4 +20,442 @@ image:
 projects: []
 ---
 
-Teste
+O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
+
+## Autores
+
+O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
+
+## Inspiração
+
+O <i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
+
+Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
+
+
+## Contribuidores
+
+A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então:
+
+- Douglas Bates  
+- John Chambers  
+- Peter Dalgaard  
+- Kurt Hornik  
+- Tomas Kalibera  
+- Michael Lawrence  
+- Friedrich Leisch  
+- Uwe Ligges  
+- Thomas Lumley  
+- Martin Maechler  
+- Martin Morgan  
+- Paul Murrell  
+- Martyn Plummer  
+- Brian Ripley  
+- Deepayan Sarkar  
+- Duncan Temple Lang  
+- Luke Tierney  
+- Simon Urbanek  
+
+Adicionalmente...  
+
+- Heiner Schwarte (até outubro de 1999)  
+- Guido Masarotto (até junho de 2003)  
+- Stefano Iacus (até julho de 2014)  
+- Seth Falcon (até agosto de 2015)  
+- Duncan Murdoch (até setembro de 2017)  
+
+O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
+
+Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
+Ben Bolker, David Brahm, G"oran Brostr"om, Patrick Burns, Vince Carey,
+Saikat DebRoy, Matt Dowle, Brian D'Urso, Lyndon Drake, Dirk Eddelbuettel,
+Claus Ekstrom, Sebastian Fischmeister, John Fox, Paul Gilbert,
+Yu Gong, Gabor Grothendieck, Frank E Harrell Jr, Peter M. Haverty,
+Torsten Hothorn, Robert King, Kjetil Kjernsmo, Roger Koenker, Philippe Lambert,
+Jan de Leeuw, Jim Lindsey, Patrick Lindsey, Catherine Loader,
+Gordon Maclean, John Maindonald, David Meyer, Ei-ji Nakama,
+Jens Oehlschaegel, Steve Oncley, Richard O'Keefe, Hubert Palme,
+Roger D. Peng, Jose' C. Pinheiro, Tony Plate, Anthony Rossini,
+Jonathan Rougier, Petr Savicky, Guenther Sawitzki, Marc Schwartz,
+Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti,
+Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
+Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
+Achim Zeileis.
+
+Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i> e são reconhecidos nos arquivos de código, incluindo:
+
+J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
+A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
+C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay,
+H. Frick, G. W. Hill, Richard H. Jones, Eric Grosse, Shelby Haberman,
+Bruno Haible, John Hartigan, Andrew Harvey, Trevor Hastie, Min Long
+Lam, George Marsaglia, K. J. Martin, Gordon Matzigkeit,
+C. R. Mckenzie, Jean McRae, Cyrus Mehta, Fionn Murtagh, John C. Nash,
+Finbarr O'Sullivan, R. E. Odeh, William Patefield, Nitin Patel, Alan
+Richardson, D. E. Roberts, Patrick Royston, Russell Lenth, Ming-Jen
+Shyu, Richard C. Singleton, S. G. Springer, Supoj Sutanthavibul, Irma
+Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin
+Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong,
+e a Free Software Foundation (pelo *autoconf code* e *utilities*).
+
+Muitos outros, contudo numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.
+
+Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
+Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.
+
+---
+
+# Primeiros passos...
+
+## Primeiras funções
+
+```{r}
+R.Version()                 # mostra a versão
+license()                   # informações sobre a licença
+citation()                  # como citar
+Sys.time()                  # obtém data e hora exata do sistema
+```
+
+## Operadores simples e funções matemáticas
+```{r}
+2+3                         # + = adição
+7-5                         # - = subtração
+4*5                         # * = multiplicação
+9/2                         # / = divisão
+9%%2                        # resto da divisão inteira
+9%/%2                       # resultado inteiro da divisão
+4^4                         # ^ = potência
+
+3+4*2+6
+(3+4)*(2+6)
+(50+7)/(8*(6-6/2))
+
+sqrt(81)                    # raiz quadrada
+exp(12)                     # função exponencial
+log(3)                      # logaritmo natural de 3
+log(3, 10)                  # logaritmo de 3 na base 10
+abs(-6.45)                  # retorna o valor absoluto
+factorial(5)                # fatorial de 5 = 5x4x3x2x1
+gamma(10)                   # função gama
+lgamma(10)                  # log natural gama
+round(10.342545, digits=2)  # arredondamento de números decimais
+```
+
+## Funções trigonométricas
+```{r}
+cos(30)         # cosseno
+sin(45)         # seno
+tan(90)         # tangente
+acos(45)        # arco cosseno
+asin(30)        # arco seno
+atan(60)        # arco tangente
+acosh(30)       # arco cosseno hiperbólico
+asinh(45)       # arco seno hiperbólico
+atanh(60)       # arco tangente hiperbólico
+```
+
+## Sequências
+```{r}
+seq(1:20)                       # Gera uma sequência de 1 a 20
+seq(1, 20, 2)                   # Gera uma sequência de 1 a 20, de 2 em 2
+seq(from=5, by=-1, along=1:20)  # Gera uma sequência iniciando em 5 e subtraindo -1, 20 vezes
+```
+
+## Repetições
+```{r}
+rep(5.3, 17)          # Repete o valor 5.3, 17 vezes
+rep(1:6, rep(3))      # Repete a sequência 1 a 6, 3 vezes
+```
+
+## Constantes do R
+```{r}
+LETTERS
+letters
+month.abb
+month.name
+pi
+```
+
+## Ordenando valores
+```{r}
+sort(letters)
+sort(letters, decreasing=TRUE)
+```
+
+## Criando um vetor com números inteiros
+```{r}
+c(1, 2, 3, 3, 10)      # função 'c' = concatenar
+```
+
+---
+
+# Tudo no R é objeto
+
+{{% alert note %}}
+O R é uma linguagem de **POO** (Programação Orientada a Objetos)  
+
+Todo objeto possui uma **CLASSE**
+{{% /alert %}}
+
+## Armazenando dados em objeto
+```{r}
+x <- 1:5
+x
+y <- 10
+y
+z <- x + y
+z
+```
+
+## Concatenando diversos valores e armazenando-os em um objeto
+```{r}
+w <- c(4,5,6,7,8)
+w
+```
+
+## Extraindo um ou mais valores de um objeto a partir da indexação
+```{r}
+w[3]
+w[c(1,4)]
+```
+
+## Operador `%in%` e função `which`
+
+
+
+## Substituindo valores de um vetor
+```{r}
+y <- c(24,10,45,56,20,29,50,67,80,23,20,15,65,57,34,63,20)
+y
+y[y==20] <- 10      # Se algum valor de y é igual a 20, substituir por 10
+y
+y[y==10] <- NA    # Apaga todos os valores iguais a 10, substituindo por 'NA'(not available)
+y
+```
+
+---
+
+## PRINCIPAIS **CLASSES** DE OBJETOS
+
+A função `class()` revela qual a classe do objeto.
+
+### numeric
+
+```{r}
+x <- c(13, 15, 346, 58, 23)
+x
+class(x)
+```
+
+### character
+
+Cadeias de caracters (ou *string* em inglês) são apresentados entre aspas.
+
+```{r}
+x <- c("R", "plantas", "animais", "floresta", "solo")
+x
+class(x)
+```
+
+### logical
+```{r}
+TRUE
+FALSE
+TRUE | FALSE     # logical 'ou'= |
+TRUE & FALSE     # logical 'e' = &
+!TRUE            # logical 'não' = !
+!FALSE
+x <- c(TRUE, FALSE, TRUE, TRUE, FALSE)
+x
+class(x)
+```
+
+### factor
+```{r}
+cores <- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
+              labels = c("verde", "azul", "vermelho"))
+cores
+class(cores)
+```
+
+### function
+
+```{r}
+class(R.Version)
+class(license)
+class(class)
+```
+
+---
+
+## PRINCIPAIS **TIPOS** DE OBJETOS
+
+### vector
+```{r}
+x <- c(2, 4, 7, 8, 12, 20)
+x
+is.vector(x)
+is.numeric(x)
+is.character(x)
+
+y <- c("verde", "azul", "branco", "cinza", "preto")
+y
+is.vector(y)
+is.numeric(y)
+is.character(y)
+
+```
+
+### matrix
+```{r}
+x <- matrix(1:20, nrow = 4)
+x
+is.vector(x)
+is.matrix(x)
+```
+
+### dataframe
+```{r}
+x <- data.frame(A = c(1, 3, 5,7),
+                B = c("2019-04-05", "2019-03-01", "2019-04-25", "2019-03-15"),
+                C = c("alfa","beta","gama","delta"))
+x
+is.matrix(x)
+is.data.frame(x)
+```
+
+### array
+```{r}
+x <- array(1:36, dim=c(3,4,3))
+x
+is.matrix(x)
+is.array(x)
+```
+
+### list
+```{r}
+x <- c(12, 42, 53, 0, 1) 
+y <- c("primeiro", "segundo", "terceiro", "quarto", "quinto") 
+z <- c(TRUE, FALSE, TRUE, FALSE, FALSE) 
+w <- list(x, y, z)
+w
+is.matrix(w)
+is.data.frame(w)          
+is.array(w)
+is.list(w)
+```
+
+---
+
+# Operadores de lógica
+```{r}
+a <- c(1:10)
+a
+a[(a>8) | (a<5)]      # sinal | = 'ou'
+```
+
+Como funciona...
+```{r}
+a > 8
+a < 5
+a > 8 | x < 5
+a[c(T,T,T,T,F,F,F,F,T,T)]
+```
+
+## Funções `if` e `else`
+```{r}
+x <- 2
+if(x == 1) {         
+  Sys.time()
+}               #nada acontece, pois 'x' não é 1.
+x <- 1
+if(x == 1) {
+  Sys.time()
+}               #mostra a data e hora exata do sistema, já que 'x' é 1.
+```
+
+```{r}
+if(x < 0) {
+  sinal <- "negativo"
+} else if(x == 0) {
+  sinal <- "neutro"
+} else if(x > 0) {
+  sinal <- "positivo"
+}
+sinal
+
+x <- -3
+if(x < 0) {
+  sinal <- "negativo"
+} else if(x == 0) {
+  sinal <- "neutro"
+} else if(x > 0) {
+  sinal <- "positivo"
+}
+sinal
+
+x <- 0
+if(x < 0) {
+  sinal <- "negativo"
+} else if(x == 0) {
+  sinal <- "neutro"
+} else if(x > 0) {
+  sinal <- "positivo"
+}
+sinal
+```
+
+## Função `for`
+```{r}
+# algoritmo para soma de vetores
+x <- 1:10   # Cria um vetor com a sequência 1, 2, ..., 10.
+soma <- 0
+for(i in 1:10) {
+  soma <- soma + x[i]
+}
+soma
+```
+
+...ou
+
+```{r}
+sum(x)          # função 'soma de vetores' já existente na base do R
+```
+
+---
+
+# Gerando números aleatórios e amostragem
+
+```{r}
+runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme
+rnorm(100)        # Gera números aleatórios com distribuição normal
+sample(1:100, 4)  # Amostragem
+```
+
+# Gráficos de Análise Descritiva
+
+## Histograma
+
+```{r, histograma, echo=TRUE}
+x <- rnorm(n=10000, mean=1, sd=1)
+hist(x, nclass = 40)
+```
+
+## Gráfico de dispersão
+
+```{r, plot, echo=TRUE}
+plot(x)
+```
+
+## Barplot
+
+```{r, barplot, echo=TRUE}
+barplot(x)
+```
+
+## Boxplot
+
+```{r, boxplot, echo=TRUE}
+boxplot(x)
+```
+
