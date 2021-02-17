@@ -36,7 +36,7 @@ experience:
     location: 'Brasília/DF, Brazil'
     date_start: '2018-03-01'
     date_end: '2019-03-01'
-    description: >-
+    description: |2-
         Responsibilities include:
         
         * DNA extraction
