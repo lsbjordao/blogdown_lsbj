@@ -1,13 +1,12 @@
 ---
 
-title: comandos basicos r
+title: Introdução ao R e comandos básicos
 author: Lucas S.B. Jordão
 date: '2021-02-17'
 slug: []
 output: 
     blogdown::html_page:
       toc: true
-      toc_float: true
 categories: []
 tags: []
 subtitle: ''
@@ -81,19 +80,19 @@ projects: []
 </ul>
 </div>
 
-<p>O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.</p>
+<p>O <i class="fab fa-r-project" style="color:blue"></i>  é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.</p>
 <div id="autores" class="section level2">
 <h2>Autores</h2>
-<p>O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por <strong>Robert Gentleman</strong> e <strong>Ross Ihaka</strong> — conhecidos como “R &amp; R” do Departamento de Estatística da Universidade de Auckland.</p>
+<p>O <i class="fab fa-r-project" style="color:blue"></i>  foi idealizado e escrito por <strong>Robert Gentleman</strong> e <strong>Ross Ihaka</strong> — conhecidos como “R &amp; R” do Departamento de Estatística da Universidade de Auckland.</p>
 </div>
 <div id="inspiração" class="section level2">
 <h2>Inspiração</h2>
-<p>O <i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.</p>
-<p>Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.</p>
+<p>O <i class="fab fa-r-project" style="color:blue"></i>  foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.</p>
+<p>Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i>  e, mais tarde, tornou-se membro da equipe principal.</p>
 </div>
 <div id="contribuidores" class="section level2">
 <h2>Contribuidores</h2>
-<p>A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então:</p>
+<p>A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i>  passou a trabalhar nesse projeto desde então:</p>
 <ul>
 <li>Douglas Bates<br />
 </li>
@@ -143,7 +142,7 @@ projects: []
 </li>
 <li>Duncan Murdoch (até setembro de 2017)</li>
 </ul>
-<p>O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:</p>
+<p>O <i class="fab fa-r-project" style="color:blue"></i>  não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:</p>
 <p>Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
 Ben Bolker, David Brahm, G“oran Brostr”om, Patrick Burns, Vince Carey,
 Saikat DebRoy, Matt Dowle, Brian D’Urso, Lyndon Drake, Dirk Eddelbuettel,
@@ -159,7 +158,7 @@ Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti,
 Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
 Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
 Achim Zeileis.</p>
-<p>Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i> e são reconhecidos nos arquivos de código, incluindo:</p>
+<p>Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i>  e são reconhecidos nos arquivos de código, incluindo:</p>
 <p>J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
 A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
 C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay,
@@ -267,7 +266,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## when using it for data analysis. See also &#39;citation(&quot;pkgname&quot;)&#39; for
 ## citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2021-02-17 12:17:48 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2021-02-17 12:33:37 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funções-matemáticas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -627,7 +626,7 @@ x &lt;- 1
 if(x == 1) {
   Sys.time()
 }               #mostra a data e hora exata do sistema, já que &#39;x&#39; é 1.</code></pre>
-<pre><code>## [1] &quot;2021-02-17 12:17:51 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2021-02-17 12:33:39 -03&quot;</code></pre>
 <pre class="r"><code>if(x &lt; 0) {
   sinal &lt;- &quot;negativo&quot;
 } else if(x == 0) {
@@ -677,43 +676,46 @@ soma</code></pre>
 <div id="gerando-números-aleatórios-e-amostragem" class="section level1">
 <h1>Gerando números aleatórios e amostragem</h1>
 <pre class="r"><code>runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
-<pre><code>##   [1] 0.114464485 0.166222491 0.771593774 0.628486642 0.479739084 0.270543199
-##   [7] 0.448618812 0.617354669 0.097875605 0.222448662 0.903815951 0.241593179
-##  [13] 0.889870373 0.342623003 0.913647290 0.936573706 0.244559849 0.298623869
-##  [19] 0.669182980 0.663050062 0.222848886 0.619110996 0.798852796 0.487607297
-##  [25] 0.504973599 0.925194189 0.716578204 0.429717623 0.041916208 0.668249903
-##  [31] 0.568422795 0.334327069 0.089024592 0.145022920 0.614483509 0.247657777
-##  [37] 0.149617380 0.536688832 0.759298411 0.824020133 0.745723577 0.958084317
-##  [43] 0.067841821 0.229413060 0.728512020 0.666260464 0.793147391 0.801391457
-##  [49] 0.635659198 0.179219048 0.462731744 0.222792022 0.981748041 0.231298779
-##  [55] 0.518118776 0.529681637 0.479644591 0.113497861 0.176785233 0.923813025
-##  [61] 0.997537772 0.589862617 0.976330073 0.412956189 0.457585604 0.369394554
-##  [67] 0.850987823 0.248061676 0.973260290 0.226810621 0.183541670 0.898201088
-##  [73] 0.398708449 0.767085112 0.068208886 0.719572541 0.457105897 0.490190575
-##  [79] 0.487211454 0.729682267 0.174745420 0.710514796 0.007934506 0.147881167
-##  [85] 0.341647204 0.791521761 0.775876838 0.873941781 0.634317273 0.738925519
-##  [91] 0.609702585 0.314543938 0.144184087 0.221020488 0.519431980 0.170810690
-##  [97] 0.292158233 0.739959084 0.352044002 0.618211520</code></pre>
+<pre><code>##   [1] 0.591181368 0.707997163 0.297780432 0.716854055 0.012763073 0.342297685
+##   [7] 0.254842010 0.739836776 0.875067416 0.659600239 0.005272552 0.366622034
+##  [13] 0.367834026 0.408048987 0.707036463 0.599852897 0.434220815 0.704953322
+##  [19] 0.235676566 0.441164318 0.753126869 0.683852533 0.569373457 0.517491695
+##  [25] 0.212504508 0.321987074 0.460684008 0.934720652 0.784660248 0.111513549
+##  [31] 0.174373023 0.541800866 0.902766954 0.699655425 0.100291807 0.063124964
+##  [37] 0.991631374 0.735578190 0.604327130 0.974991752 0.897854778 0.294309053
+##  [43] 0.128877348 0.180623456 0.404023399 0.542217259 0.885349637 0.311257880
+##  [49] 0.947005721 0.683524556 0.987540145 0.711249517 0.669080454 0.418398092
+##  [55] 0.971700062 0.279970959 0.929889889 0.666879029 0.663724406 0.601237429
+##  [61] 0.616168900 0.460015987 0.612916921 0.111236771 0.907902811 0.090403073
+##  [67] 0.359965581 0.286938615 0.298557865 0.443439065 0.649799990 0.979018851
+##  [73] 0.530715581 0.232069189 0.803608340 0.272402583 0.875486090 0.805887589
+##  [79] 0.114148592 0.428074867 0.293594894 0.484958778 0.151524326 0.297047358
+##  [85] 0.417267353 0.367382733 0.106733595 0.757105321 0.886091131 0.780824201
+##  [91] 0.932347495 0.807081094 0.647886127 0.118903305 0.956390749 0.373799779
+##  [97] 0.542458954 0.322133070 0.029301250 0.596084156</code></pre>
 <pre class="r"><code>rnorm(100)        # Gera números aleatórios com distribuição normal</code></pre>
-<pre><code>##   [1] -1.80357203 -2.33009286 -0.05762600  0.19673785 -0.22083403  0.59887689
-##   [7]  2.04068217 -0.47791964  0.60204347  0.70347266  1.42657991 -1.84594102
-##  [13]  0.41725901  0.53834910 -0.69952778 -0.22240302 -0.53091758 -0.29499522
-##  [19] -0.34250928  1.00710550 -0.22968702 -0.54807416 -0.41673103 -0.32931159
-##  [25] -1.23032564  2.26651358  0.10362711 -1.28385541 -0.61058636 -0.67674391
-##  [31] -2.34353165 -0.74561372  0.55363247  1.65193819  1.00932895 -1.83499486
-##  [37] -1.24522592  1.31307858  0.65798736 -0.69802612  0.86937810  1.06672088
-##  [43] -0.28557044  2.01600212 -1.83486482  0.07687841  1.03143884  1.24215647
-##  [49] -0.74683627  0.40441985 -0.54022624 -1.48062062  1.64203645  0.74175418
-##  [55]  0.11231626 -0.66911956 -1.39482923 -1.53006523  1.48467374  0.39644907
-##  [61] -1.22073746  1.75888920 -0.68824215 -0.49664044 -0.55675112  0.04692730
-##  [67]  0.41100465  0.73611770  1.82780496  1.26384636  0.47314725  0.49235770
-##  [73] -1.60414915  1.57973255  0.65030432  0.51099316 -1.32428540 -2.35469835
-##  [79]  0.01954988 -0.19812952  0.69342851  0.59812699 -0.99460642 -0.29683200
-##  [85]  0.80004953  0.61923135  0.88268911 -0.69009439 -1.34534056 -1.09443977
-##  [91]  0.69127601  2.63138269  1.40313133  0.71998391 -0.25265943 -0.11394714
-##  [97] -0.78587686  0.65186204 -0.61225722  0.16451063</code></pre>
+<pre><code>##   [1] -0.199189410 -0.092249092 -1.275004186 -1.163717764  1.680961618
+##   [6]  0.260956139  0.638641077 -0.077723343 -0.846792827 -1.545983149
+##  [11] -1.252948657  0.958315140 -0.768071402 -2.587286377  0.954142463
+##  [16] -1.155411938 -1.268153043  0.151697916 -1.219347743 -0.253664861
+##  [21] -0.821185081 -0.968550246  1.480751903  0.347406521  1.254162415
+##  [26] -1.066580680 -0.140019993 -1.395771267 -0.593153699 -0.236095248
+##  [31] -1.261750818 -1.248104336  0.089860418 -0.081033576  0.711265665
+##  [36] -0.976472295 -0.201127769  0.197523114 -1.143701469  0.723954352
+##  [41]  0.696193179 -1.972512119 -1.347495046  0.155250223  0.083696757
+##  [46]  0.710379178  1.161156897 -1.757666084  0.895100136  0.813308464
+##  [51] -0.745386663  0.390688151 -1.189099899  0.670950765 -0.401623495
+##  [56] -0.758525082  0.005288454 -0.550420819  1.070978416  0.290422921
+##  [61] -0.108903281 -1.463025428  0.994792400 -0.455481507 -0.376579874
+##  [66] -0.699157821 -0.759494815 -0.280625226  0.394138554  2.110085043
+##  [71]  1.149822834 -0.640432001 -1.091377061 -0.160105072 -1.193286549
+##  [76]  0.510950259 -0.325197131  0.687599558  1.049787793 -0.926764787
+##  [81] -0.433542923 -1.211751325 -0.319063935  0.962300555  0.035197315
+##  [86]  2.053791722 -2.444418241  0.036006804 -1.109738020 -0.213751263
+##  [91]  0.818457241 -1.193009255  0.620767765 -0.367852878 -1.513306160
+##  [96] -1.503945522 -0.713399399 -0.084115512  1.106117097 -1.595382819</code></pre>
 <pre class="r"><code>sample(1:100, 4)  # Amostragem</code></pre>
-<pre><code>## [1] 33 10 19 21</code></pre>
+<pre><code>## [1]  9 25 22 66</code></pre>
 </div>
 <div id="gráficos-de-análise-descritiva" class="section level1">
 <h1>Gráficos de Análise Descritiva</h1>

@@ -20,22 +20,22 @@ image:
 projects: []
 ---
 
-O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
+O <i class="fab fa-r-project" style="color:blue"></i>&nbsp; é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 ## Autores
 
-O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
+O <i class="fab fa-r-project" style="color:blue"></i>&nbsp; foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
 
 ## Inspiração
 
-O <i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
+O <i class="fab fa-r-project" style="color:blue"></i>&nbsp; foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
 
-Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
+Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i>&nbsp; e, mais tarde, tornou-se membro da equipe principal.
 
 
 ## Contribuidores
 
-A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então:
+A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i>&nbsp; passou a trabalhar nesse projeto desde então:
 
 - Douglas Bates  
 - John Chambers  
@@ -64,7 +64,7 @@ Adicionalmente...
 - Seth Falcon (até agosto de 2015)  
 - Duncan Murdoch (até setembro de 2017)  
 
-O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
+O <i class="fab fa-r-project" style="color:blue"></i>&nbsp; não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
 
 Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
 Ben Bolker, David Brahm, G"oran Brostr"om, Patrick Burns, Vince Carey,
@@ -82,7 +82,7 @@ Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
 Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
 Achim Zeileis.
 
-Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i> e são reconhecidos nos arquivos de código, incluindo:
+Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i>&nbsp; e são reconhecidos nos arquivos de código, incluindo:
 
 J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
 A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
